@@ -1,5 +1,4 @@
 from flask import Flask,request,render_template
-from textblob import TextBlob
 
 import google.generativeai as palm
 palm.configure(api_key="AIzaSyDx7OUgfh-QPOAJG-KpjrMIW0QdoRZr4As")
